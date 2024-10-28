@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Light";
+  src: url("/fonts/segoeuil.ttf");
+}
+@font-face {
+  font-family: "Regular";
+  src: url("/fonts/segoeui.ttf");
+}
+@font-face {
+  font-family: "Medium";
+  src: url("/fonts/segoeuisb.ttf");
+}
+@font-face {
+  font-family: "SemiBold";
+  src: url("/fonts/segoeuisb.ttf");
+}
+@font-face {
+  font-family: "Bold";
+  src: url("/fonts/segoeuib.ttf");
+}
+@font-face {
+  font-family: "Black";
+  src: url("/fonts/segoeuibl.ttf");
+}/*# sourceMappingURL=fonts.css.map */
