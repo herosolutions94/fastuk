@@ -29,7 +29,7 @@ export default function Header() {
           {/* =========user no login====== */}
           <div className="login_btns">
             <ul>
-            <li><Link href="/">For Business</Link></li>
+            <li><Link href="/business">For Business</Link></li>
               <li><Link href="/login">Login</Link></li>
               <li className="btn_blk"><Link href="/signup" className="site_btn">SignUp</Link></li>
             </ul>

@@ -21,7 +21,7 @@ export default function Business() {
                   right plan for your business.
                 </p>
                 <div className="btn_blk">
-                  <Link href="" className="site_btn color">
+                  <Link href="/business-form" className="site_btn color">
                     Get a Quote
                   </Link>
                 </div>

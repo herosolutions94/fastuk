@@ -4,38 +4,41 @@ import React from 'react'
 export default function Footer() {
   const data = {
     list_02: [
+   
       {
         id: 1,
-        text: "Home",
-        link: "/",
-      },
-      {
-        id: 2,
         text: "About Us",
         link: "/about",
       },
       {
+        id: 2,
+        text: "For Rider",
+        link: "/rider",
+     
+      },
+      {
         id: 3,
-        text: "Login",
-        link: "/",
+        text: "For Business",
+        link: "/business",
       }
     ],
     list_03: [
       {
         id: 1,
         text: "Help & Support",
-        link: "/",
+        link: "/help-support",
+      },
+      {
+        id: 2,
+        text: "Login",
+        link: "/login",
       },
       {
         id: 3,
         text: "Contact Us",
         link: "/",
-      },
-      {
-        id: 4,
-        text: "Sign Up",
-        link: "/",
       }
+    
     ],
     
   }

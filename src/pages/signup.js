@@ -13,8 +13,8 @@ export default function Signup() {
               </Link>
             </div>
             <div className="btn_blk">
-              <Link href="" className="">
-                Don’t have an account? <strong>Get started today</strong>
+              <Link href="/login" className="">
+               Already have an account? <strong>Login</strong>
               </Link>
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function Signup() {
                     <input type="checkbox" name="remember" id="remember" />
                     <label htmlFor="remember">
                       By creating an account you confirm that you agree to our
-                      website <a>terms of use</a> and our <a>privacy notice</a>.
+                      website <a href="/terms-condition">terms of use</a> and our <a href="/privacy-policy">privacy notice</a>.
                     </label>
                   </div>
                 </div>

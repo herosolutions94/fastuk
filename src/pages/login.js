@@ -12,7 +12,7 @@ export default function Login() {
               </Link>
             </div>
             <div className="btn_blk">
-              <Link href="" className="">
+              <Link href="/signup" className="">
                 Don’t have an account? <strong>Get started today</strong>
               </Link>
             </div>
@@ -51,7 +51,7 @@ export default function Login() {
                     <img class="eye" src="/images/eye.svg"></img>
                 </div>
                 <div className="form_blk blk_link">
-                  <Link className="link" href="/forgot-password">
+                  <Link className="link" href="/forget-password">
                     Forgot Password?
                   </Link>
                 </div>

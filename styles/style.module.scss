@@ -1014,6 +1014,7 @@ img.eye {
 }
 
 #process1 {
+  padding-top: 0;
   .outer {
     background-image: url(../public/images/bluebg.png);
     // border-radius: 32px;
@@ -1070,6 +1071,9 @@ img.eye {
 }
 
 #rider {
+  .btn_blk{
+    margin-top: 30px;
+  }
   .col3 {
     padding-right: 90px;
   }
