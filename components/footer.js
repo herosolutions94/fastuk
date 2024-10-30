@@ -30,13 +30,13 @@ export default function Footer() {
       },
       {
         id: 2,
-        text: "Login",
-        link: "/login",
+        text: "FAQ",
+        link: "/faq",
       },
       {
         id: 3,
         text: "Contact Us",
-        link: "/",
+        link: "/contact",
       }
     
     ],
