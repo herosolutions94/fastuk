@@ -21,7 +21,7 @@ export default function Rider() {
                 </div>
             </section>
 
-            <section id="choose">
+            <section id="choose1">
             <div className="contain">
                 <div className="content_center">
                     <div className="title">CHOOSE</div>

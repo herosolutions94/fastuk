@@ -5,9 +5,9 @@ import { useRouter } from "next/router";
 export default function Layout({ children }) {
   const router = useRouter();
   const path = router.pathname;
-  if ((path == "/signup") || (path == "/login") || (path == "/forget-password") || (path == "/reset-password")) {
+  if ((path == "/signup") || (path == "/login") || (path == "/forget-password") || (path == "/reset-password") || (path == "/multistepform") ) {
     return (
-      <div className="content">
+      <div className="content">    
         <SiteMaster />
         {children}
       </div>
