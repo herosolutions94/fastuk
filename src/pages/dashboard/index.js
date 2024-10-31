@@ -14,6 +14,7 @@ const Index = () => {
                     <p>Current Orders</p>
                     <h4>03</h4>
                   </div>
+
                   <div className="images">
                     <img src="/images/uj_dash_box1.svg" alt="" />
                   </div>
