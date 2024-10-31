@@ -88,16 +88,15 @@ export default function Contact() {
                       />
                     </div>
                   </div>
+                
                   <div className="col-md-6">
                     <div className="txtGrp">
+                      <img className="flg wl" src="/images/uk.svg" />
                       <input
-                        type="text"
-                        className="input"
+                        type=""
+                        className="input phone"
                         required
-                        placeholder="Phone"
-                        name="phone"
-                        value={formData.phone}
-                        onChange={handleChange}
+                        placeholder="+ 44"
                       />
                     </div>
                   </div>
