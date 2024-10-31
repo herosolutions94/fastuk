@@ -14,7 +14,7 @@ export default function Step2() {
             <div className="coll">
               <div className="inner">
                 <div className="icon">
-                  <img src="/images/van 1.svg" />
+                  <img src="/images/st4.png" />
                 </div>
                 <h4>Truck</h4>
               </div>
@@ -22,7 +22,7 @@ export default function Step2() {
             <div className="coll">
               <div className="inner selected">
                 <div className="icon">
-                  <img src="/images/tick.svg" />
+                  <img src="/images/check.png" />
                 </div>
                 <h4>Selected Car</h4>
               </div>
@@ -30,7 +30,7 @@ export default function Step2() {
             <div className="coll">
               <div className="inner">
                 <div className="icon">
-                  <img src="/images/pickup-truck.svg" />
+                  <img src="/images/st2.png" />
                 </div>
                 <h4>Van</h4>
               </div>
@@ -38,7 +38,7 @@ export default function Step2() {
             <div className="coll">
               <div className="inner">
                 <div className="icon">
-                  <img src="/images/farm-vehicle.svg" />
+                  <img src="/images/st1.png" />
                 </div>
                 <h4>Tractor</h4>
               </div>
@@ -46,7 +46,7 @@ export default function Step2() {
             <div className="coll">
               <div className="inner">
                 <div className="icon">
-                  <img src="/images/bycicle.svg" />
+                  <img src="/images/st3.png" />
                 </div>
                 <h4>Bike</h4>
               </div>
