@@ -37,6 +37,7 @@
             display: flex;
             -webkit-box-orient: vertical;
             gap: 2rem;
+            align-items: center;
             .field_col {
               flex: 1 1;
               border-right: 1px solid #b4b5c2;
@@ -1071,7 +1072,7 @@ img.eye {
 }
 
 #rider {
-  .btn_blk{
+  .btn_blk {
     margin-top: 30px;
   }
   .col3 {
@@ -1246,6 +1247,9 @@ label {
 }
 
 #multistepform {
+  .text {
+    margin-bottom: 60px;
+  }
   .col1 {
     width: 20%;
   }
@@ -1260,6 +1264,8 @@ label {
         display: flex;
         align-items: center;
         gap: 14px;
+        justify-content: end;
+        margin-top: 90px;
         .site_btn {
           width: 120px;
           padding: 0;
@@ -1276,12 +1282,69 @@ label {
         padding: 40px 20px;
         border-radius: 8;
       }
+      .step1 {
+        .input {
+          &::placeholder {
+            font-size: 10px !important;
+          }
+        }
+        .txtGrp {
+          margin-bottom: 0;
+        }
+        label {
+          color: #000;
+        }
+        .cm {
+          background-color: #e1e7ff;
+          // padding: 4px 6px;
+          border-radius: 0 4px 4px 0;
+          position: absolute;
+          right: 0;
+          top: 34px;
+          height: 50px;
+          display: flex;
+          align-items: center;
+          width: 40px;
+          justify-content: center;
+        }
+      }
+      .btn_blk {
+        margin-top: 40px;
+        justify-content: center;
+      }
+
+      .step2 .coll {
+        width: calc(100% / 3);
+        padding: 10px;
+        .inner {
+          background-color: $white;
+          border-radius: 4px;
+          box-shadow: $shadow3;
+          padding: 40px 20px;
+         
+          .icon {
+            background-color: #fa0201;
+            padding: 6px;
+            border-radius: 100px;
+            width: 55px;
+            height: 55px;
+            margin: 0 auto 30px;
+          }
+          h4{
+            font-family: 'SemiBold';
+            text-align: center;
+          }
+        }
+        .selected{
+          border: 1px solid $red;
+          }
+      }
     }
   }
 }
 
 .sidebar {
-  padding-right: 50px;
+  padding-right: 10px;
 }
 
 .steps {
@@ -1292,7 +1355,6 @@ label {
 
 .step {
   display: flex;
-  align-items: center;
   margin-bottom: 70px;
   position: relative;
 }
@@ -1323,13 +1385,13 @@ label {
 }
 
 .circle {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 22px;
+  font-size: 20px;
   border: 2px solid $blue;
   color: $blue;
   background-color: #fff;

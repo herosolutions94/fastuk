@@ -48,8 +48,13 @@ export default function MultistepForm() {
       </div>
 
       <main>
+
         <section id="multistepform">
           <div className="contain">
+            <div className="text">
+              <div className="title">Join Us</div>
+              <h2>Fast uk couriers limited</h2>
+            </div>
             <div className="flex">
               <div className="col1">
                 <ProgressSidebar currentStep={currentStep} />

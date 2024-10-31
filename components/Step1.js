@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+
 
 export default function Step1() {
   return (
@@ -9,7 +11,7 @@ export default function Step1() {
       </div>
       <div className="inner_bulk">
         <form>
-          <div className="row">
+          <div className="row step1">
           <div className="col-md-2">
               <div className="txtGrp">
                 <label>Parcel Number </label>
@@ -30,26 +32,35 @@ export default function Step1() {
               <div className="txtGrp">
                 <label>Length </label>
                 <input type="" className="input" required placeholder="" />
+                <span className="cm">cm</span>
               </div>
             </div>
             <div className="col-md-2">
               <div className="txtGrp">
                 <label>Width </label>
                 <input type="" className="input" required placeholder="" />
+                <span className="cm">cm</span>
               </div>
             </div>
             <div className="col-md-2">
               <div className="txtGrp">
                 <label>Height </label>
                 <input type="" className="input" required placeholder="" />
+                <span className="cm">cm</span>
               </div>
             </div>
             <div className="col-md-2">
               <div className="txtGrp">
                 <label>Weight </label>
                 <input type="" className="input" required placeholder="" />
+                <span className="cm">kg</span>
               </div>
             </div>
+            <div className="btn_blk">
+                  <Link href="" className="site_btn blank">
+                 Add More Parcel
+                  </Link>
+                </div>
           </div>
         </form>
       </div>
